@@ -131,10 +131,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>throttle
 : <a class="el" href="d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#aa1be7ba0d5ba5985c8c6cd49d80dbea5">carla::rpc::VehicleControl</a>
 , <a class="el" href="d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html#a2fa276ab79c648529cde35bb344594c8">carla::sensor::data::detail::PackedVehicleControl</a>
+, <a class="el" href="dd/da4/structcarla_1_1traffic__manager_1_1ActuationSignal.html#a102a764a1c04a62c5a89b078b6de5e11">carla::traffic_manager::ActuationSignal</a>
+, <a class="el" href="d9/d21/structcarla_1_1traffic__manager_1_1PlannerToControlData.html#a48d719a6237ab3dff9b4483271a10de0">carla::traffic_manager::PlannerToControlData</a>
 </li>
 <li>Throttle
 : <a class="el" href="d8/d88/structCarlaRecorderAnimVehicle.html#a41c1a7982840cfd692b6ce4058733c81">CarlaRecorderAnimVehicle</a>
 , <a class="el" href="d1/d4b/structFVehicleControl.html#a45accf0c32b714b4cc965b457e476fd3">FVehicleControl</a>
+</li>
+<li>throughput_clock
+: <a class="el" href="d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html#adb77e8635833c9fd23b7e1e203e539c6">carla::traffic_manager::PerformanceDiagnostics</a>
+</li>
+<li>throughput_counter
+: <a class="el" href="d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html#a5cb22d0c2d476fc49f02fcb1685c41e8">carla::traffic_manager::PerformanceDiagnostics</a>
 </li>
 <li>TickCuesReceived
 : <a class="el" href="d7/d97/classFCarlaServer_1_1FPimpl.html#af84096c88e8115554889780cc1a98007">FCarlaServer::FPimpl</a>
@@ -142,6 +150,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>time
 : <a class="el" href="d5/de9/structcarla_1_1nav_1_1WalkerEventStopAndCheck.html#a6a6772eaeac4a1f85686abd70eac22e8">carla::nav::WalkerEventStopAndCheck</a>
 , <a class="el" href="dd/d45/structcarla_1_1nav_1_1WalkerEventWait.html#adea2980d52a2d071d8fc846049fd51e7">carla::nav::WalkerEventWait</a>
+</li>
+<li>time_instance
+: <a class="el" href="dc/dcf/structcarla_1_1traffic__manager_1_1StateEntry.html#a93bafe73038041405b7a388b2ea03e71">carla::traffic_manager::StateEntry</a>
 </li>
 <li>time_is_frozen
 : <a class="el" href="d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#abc88a50b2391790f59479aaffc3db1a7">carla::sensor::data::detail::TrafficLightData</a>
@@ -191,11 +202,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>TraceParams
 : <a class="el" href="d9/d27/classARadar.html#a69d7475e350a3ce40b8ca0ce75bd89e7">ARadar</a>
 </li>
+<li>track_traffic
+: <a class="el" href="d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a96d4e9ed028257c1d54d46aa9ab03b7c">carla::traffic_manager::LocalizationStage</a>
+</li>
 <li>traffic_light_data
 : <a class="el" href="d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html#ae762a96cab06ac22823c08869217d999">carla::sensor::data::ActorDynamicState::TypeDependentState</a>
 </li>
+<li>traffic_light_frame
+: <a class="el" href="da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#a61141a1255c7299d11dce676d77d8aa5">carla::traffic_manager::MotionPlannerStage</a>
+</li>
+<li>traffic_light_frame_a
+: <a class="el" href="d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#aaf9ebc1a5e962ca0eec2969e87c8aa49">carla::traffic_manager::LocalizationStage</a>
+</li>
+<li>traffic_light_frame_b
+: <a class="el" href="d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a95e1d87c965f638f25f5f7f8ad4b2808">carla::traffic_manager::LocalizationStage</a>
+</li>
+<li>traffic_light_frame_selector
+: <a class="el" href="d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a90d9b50d5b335f172ccbdec84496e24e">carla::traffic_manager::LocalizationStage</a>
+</li>
+<li>traffic_light_hazard
+: <a class="el" href="d4/d0f/structcarla_1_1traffic__manager_1_1TrafficLightToPlannerData.html#a19c7a027e35942e79547df9c9f50f145">carla::traffic_manager::TrafficLightToPlannerData</a>
+</li>
 <li>traffic_light_id
 : <a class="el" href="da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html#ae0416cbade46e11f55add9c3a61960ca">carla::sensor::data::detail::VehicleData</a>
+</li>
+<li>traffic_light_messenger
+: <a class="el" href="d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#aeeb82d89281fe4822ba82b6e45c11a6e">carla::traffic_manager::LocalizationStage</a>
+, <a class="el" href="da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#a26f7864fea2a50269dfd70e52d38a48e">carla::traffic_manager::MotionPlannerStage</a>
+</li>
+<li>traffic_light_planner_messenger
+: <a class="el" href="df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#ab93d4ed5aec8e034557fe76b072a053a">carla::traffic_manager::TrafficManager</a>
+</li>
+<li>traffic_light_stage
+: <a class="el" href="df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#a73c7a3463a28250dc7355cf138f055cf">carla::traffic_manager::TrafficManager</a>
 </li>
 <li>traffic_light_state
 : <a class="el" href="da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html#a1598ec087d41562fe9b43df8ec4e9ba7">carla::sensor::data::detail::VehicleData</a>

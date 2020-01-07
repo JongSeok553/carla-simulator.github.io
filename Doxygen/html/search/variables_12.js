@@ -2,10 +2,12 @@ var searchData=
 [
   ['r',['r',['../da/d44/classcarla_1_1rpc_1_1Color.html#afcb850bc444ccf41f6be096a3cd55657',1,'carla::rpc::Color::r()'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#a8b6887584e47cd3ac9ab62110c24e44d',1,'carla::sensor::data::Color::r()']]],
   ['radardata',['RadarData',['../d9/d27/classARadar.html#accbbfbbcbc3319979d3cd357659773f9',1,'ARadar']]],
-  ['radius',['radius',['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()'],['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()']]],
+  ['radius',['Radius',['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()'],['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()']]],
   ['randomengine',['RandomEngine',['../d3/d01/classASensor.html#ac45a5cb382483d3ddf3547c8dd972067',1,'ASensor::RandomEngine()'],['../d2/d2a/classAActorWithRandomEngine.html#aa1d73423f1ce12a3d87b3e0407a597d5',1,'AActorWithRandomEngine::RandomEngine()'],['../dd/dea/classAWheeledVehicleAIController.html#a40d5b3d142d39bb190666ce45fc3f194',1,'AWheeledVehicleAIController::RandomEngine()']]],
   ['range',['Range',['../de/d6f/structFLidarDescription.html#a6731c317ddf2b5d346d35e378e59f661',1,'FLidarDescription::Range()'],['../d9/d27/classARadar.html#a0e1df846b1fd17b4d8c01778c7807e24',1,'ARadar::Range()']]],
   ['ratio',['ratio',['../d9/d75/classcarla_1_1rpc_1_1GearPhysicsControl.html#a827364d13d2b9a95e281e86bb0e268cb',1,'carla::rpc::GearPhysicsControl::ratio()'],['../da/d0b/structFGearPhysicsControl.html#a84a5216682fe47af0784ed8233accca0',1,'FGearPhysicsControl::Ratio()']]],
+  ['raw_5fdense_5ftopology',['raw_dense_topology',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#a225c0260762f9070cadea5864c8916c4',1,'carla::traffic_manager::InMemoryMap']]],
+  ['receive_5fcondition',['receive_condition',['../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#ac41fed1b3250b95da881a88b54c77243',1,'carla::traffic_manager::Messenger']]],
   ['recinfo',['RecInfo',['../df/d24/classCarlaRecorderQuery.html#aed85ec6996008046fb58982471c68f22',1,'CarlaRecorderQuery::RecInfo()'],['../dc/dc6/classCarlaReplayer.html#ac2f934b25ff402c7d6fcc837784726ea',1,'CarlaReplayer::RecInfo()']]],
   ['recommended_5fspawn_5fpoints',['recommended_spawn_points',['../d1/d07/classcarla_1_1rpc_1_1MapInfo.html#add4854869be339d238c18b752203a780',1,'carla::rpc::MapInfo']]],
   ['recommended_5fvalues',['recommended_values',['../d8/d46/classcarla_1_1rpc_1_1ActorAttribute.html#a3e0b909810a90579ca395f50f772c5bf',1,'carla::rpc::ActorAttribute']]],
@@ -15,6 +17,8 @@ var searchData=
   ['red_5ftime',['red_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#acff6151f65355b846e7b9acf745a3e3e',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['redtime',['RedTime',['../d2/d23/classATrafficLightBase.html#affb3a531982f1c20d4ce9c1a6619d958',1,'ATrafficLightBase']]],
   ['refs_5fmask',['REFS_MASK',['../db/d08/structmoodycamel_1_1ConcurrentQueue_1_1FreeList.html#abc38362334f160539380452146e071da',1,'moodycamel::ConcurrentQueue::FreeList']]],
+  ['registered_5factors',['registered_actors',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a5596d790e2f4eb3c68d7b811abfac679',1,'carla::traffic_manager::LocalizationStage::registered_actors()'],['../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#aac69ad70e5c301432ecb8f03d8b0f991',1,'carla::traffic_manager::TrafficManager::registered_actors()']]],
+  ['registered_5factors_5fstate',['registered_actors_state',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a94ff0d9e0338426579f04afa25068ff9',1,'carla::traffic_manager::LocalizationStage']]],
   ['registry',['Registry',['../d7/d90/classUActorDispatcher.html#a49d2db26b83c9ec547c8ca6c389c01bf',1,'UActorDispatcher']]],
   ['registry_5fformat',['REGISTRY_FORMAT',['../d7/d39/namespacePropAttributes.html#a9a5a14d64e0faca58319d0c548ab20b5',1,'PropAttributes']]],
   ['replayer',['Replayer',['../dd/db9/classACarlaRecorder.html#a8682397e81dc6fc3ba79cdfdf293fe7e',1,'ACarlaRecorder']]],
@@ -37,5 +41,6 @@ var searchData=
   ['routeplanners',['RoutePlanners',['../d0/d2d/classAOpenDriveActor.html#acb496ff8711ce7e68d96f2fcceb4f290',1,'AOpenDriveActor']]],
   ['routes',['Routes',['../dc/d0f/classARoutePlanner.html#ab825e1a190e5ec97045b16c156f2e0b2',1,'ARoutePlanner']]],
   ['rpc_5fclient',['rpc_client',['../dc/de1/classcarla_1_1client_1_1detail_1_1Client_1_1Pimpl.html#af5243c98a522bb6f62bfb0ec5bb042cb',1,'carla::client::detail::Client::Pimpl']]],
-  ['rpcport',['RPCPort',['../d7/d1e/classUCarlaSettings.html#a77a4b7f85a68c898706950c0996ca5e8',1,'UCarlaSettings']]]
+  ['rpcport',['RPCPort',['../d7/d1e/classUCarlaSettings.html#a77a4b7f85a68c898706950c0996ca5e8',1,'UCarlaSettings']]],
+  ['run_5fstage',['run_stage',['../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ab915ed0001d4d196b43f76916c4274dc',1,'carla::traffic_manager::PipelineStage']]]
 ];

@@ -85,6 +85,8 @@ var searchData=
   ['collisioneventserializer_2eh',['CollisionEventSerializer.h',['../d8/d9f/CollisionEventSerializer_8h.html',1,'']]],
   ['collisionsensor_2ecpp',['CollisionSensor.cpp',['../da/df0/CollisionSensor_8cpp.html',1,'']]],
   ['collisionsensor_2eh',['CollisionSensor.h',['../d3/dd6/CollisionSensor_8h.html',1,'']]],
+  ['collisionstage_2ecpp',['CollisionStage.cpp',['../db/da2/CollisionStage_8cpp.html',1,'']]],
+  ['collisionstage_2eh',['CollisionStage.h',['../da/d67/CollisionStage_8h.html',1,'']]],
   ['colorconverter_2eh',['ColorConverter.h',['../df/df7/ColorConverter_8h.html',1,'']]],
   ['command_2eh',['Command.h',['../d1/d55/Command_8h.html',1,'']]],
   ['commandresponse_2eh',['CommandResponse.h',['../d8/dc1/CommandResponse_8h.html',1,'']]],
